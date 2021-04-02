@@ -1,0 +1,31 @@
+JSX
+
+jsx is a syntax extension of javascript
+jsx react produces react elements
+jsx have a tag Name,atrributes and children
+
+Why JSX?
+
+-to handle events
+-to state changes over time
+-to prepare data to display
+
+RENDERING ELEMENTS
+
+Elements are the smallest building blocks of React apps.
+To render a React element into a root DOM node, pass both to ReactDOM.render():
+React elements are immutable. 
+
+LIFE CYCLE (Doesnt exist in functional component)
+
+HANDLING EVENTS
+
+Handling events with React elements is very similar to handling events on DOM elements. 
+There are some syntax differences:
+With JSX you pass a function as the event handler, rather than a string.
+
+CONDITIONAL RENDERING
+
+it is same way as the javascript works
+it is used to hide and show based on condition
+
