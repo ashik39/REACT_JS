@@ -1,11 +1,24 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Hello from './components/hello'
+//import Hello from './components/hello'
+//import Greet from './components/props'
+// import HelloWorld from './components/jsx-cnt'
+// import FunctionClick from './components/eventhandle-cnt'
+// import FunctionCheck from './components/conditionarendering-cnt'
+import HookCounter from './components/state-fc'
+
 function App() {
   return (
     <div className="App">
-      <Hello />
+      <HookCounter/>
       
+      
+      {/* <Hello />
+      <Greet name ="Clark" heroName = "Superman" />
+      <HelloWorld />
+      <FunctionClick/>
+      <FunctionCheck/> */}
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
