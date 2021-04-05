@@ -5,15 +5,16 @@ import './App.css';
 // import HelloWorld from './components/jsx-cnt'
 // import FunctionClick from './components/eventhandle-cnt'
 // import FunctionCheck from './components/conditionarendering-cnt'
-import HookCounter from './components/state-fc'
-
+//import HookCounter from './components/state-fc'
+import LifeCycle from './components/lifecycle-hooks'
 function App() {
   return (
     <div className="App">
-      <HookCounter/>
+      <LifeCycle/>
       
       
-      {/* <Hello />
+      {/*<HookCounter/> 
+      <Hello />
       <Greet name ="Clark" heroName = "Superman" />
       <HelloWorld />
       <FunctionClick/>
