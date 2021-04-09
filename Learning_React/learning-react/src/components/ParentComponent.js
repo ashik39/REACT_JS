@@ -3,10 +3,14 @@ import ChildComponent from './ChildComponent'
 
 function ParentComponent(){
 
+    function childData(message){
+        alert(message)
+        
+    }
 
     return(
         <div className="Border">
-            <ChildComponent message="Hello I am passed from Parent to child"/>
+            <ChildComponent handleClick= {childData}  />
         </div>
     )
 }
