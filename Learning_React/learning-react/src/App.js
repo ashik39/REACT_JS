@@ -6,14 +6,30 @@ import './App.css';
 // import FunctionClick from './components/eventhandle-cnt'
 // import FunctionCheck from './components/conditionarendering-cnt'
 //import HookCounter from './components/state-fc'
-import LifeCycle from './components/lifecycle-hooks'
+//import LifeCycle from './components/lifecycle-hooks'
+//import NameList from './components/NameList'
+//import IndexKey from './components/IndexKey'
+//import OnChangeEvent from './components/OnChangeEvent'
+//import OnSubmitEvent from './components/OnSubmitEvent'
+//import MouseEvent from './components/MouseEvent'
+//import ReactForm from './components/ReactForm'
+import ParentComponent from './components/ParentComponent'
+
 function App() {
   return (
     <div className="App">
+
+        <ParentComponent /> 
+      
+      {/*
+      <ReactForm />
+      <MouseEvent/>
+      <OnSubmitEvent/>
+      <OnChangeEvent />
+      <IndexKey />
+      <NameList />
       <LifeCycle/>
-      
-      
-      {/*<HookCounter/> 
+      <HookCounter/> 
       <Hello />
       <Greet name ="Clark" heroName = "Superman" />
       <HelloWorld />

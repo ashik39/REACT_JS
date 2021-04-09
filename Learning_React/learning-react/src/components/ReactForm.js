@@ -80,7 +80,7 @@ function ReactForm(){
     }
 
     return (
-        <div className="Form">
+        <div className="Border">
             <h1>BASIC FORM</h1>
             <form onSubmit = {formSubmit}>
 

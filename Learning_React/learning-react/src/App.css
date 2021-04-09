@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.Border{
+  border : solid 2px black;
+  padding : 30px;
+  margin: 30px;
+}
+
+.width{
+  width: 30%;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
